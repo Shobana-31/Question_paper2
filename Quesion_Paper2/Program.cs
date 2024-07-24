@@ -24,7 +24,12 @@ namespace Quesion_Paper2
            // q12();
            // q13();
            // q14();
-            q15();
+           // q15();
+           // q16();
+            //q17();
+           // q18();
+            //q19();
+            q20();
         }
         public static void q1()
         {
@@ -356,7 +361,157 @@ namespace Quesion_Paper2
             {
                 Console.WriteLine("Y Axis");
             }
-
+        }
+        public static void q16()
+        {
+            Console.WriteLine("Enter a Character:");
+            char character = char.Parse(Console.ReadLine());
+            switch (character)
+            {
+                case 'a':
+                    Console.WriteLine("Given Character is Vowel");
+                    break;
+                case 'e':
+                    Console.WriteLine("Given Character is Vowel");
+                    break;
+                case 'i':
+                    Console.WriteLine("Given Character is Vowel");
+                    break;
+                case 'o':
+                    Console.WriteLine("Given Character is Vowel");
+                    break;
+                case 'u':
+                    Console.WriteLine("Given Character is Vowel");
+                    break;
+                case 'A':
+                    Console.WriteLine("Given Character is Vowel");
+                    break;
+                case 'E':
+                    Console.WriteLine("Given Character is Vowel");
+                    break;
+                case 'I':
+                    Console.WriteLine("Given Character is Vowel");
+                    break;
+                case 'O':
+                    Console.WriteLine("Given Character is Vowel");
+                    break;
+                case 'U':
+                    Console.WriteLine("Given Character is Vowel");
+                    break;
+                default :
+                    Console.WriteLine("Given Character is Consonant");
+                    break;
+            }
+        }
+        public static void q17()
+        {
+            Console.Write("Enter the Number of Sides:");
+            int side = int.Parse(Console.ReadLine());
+            switch (side)
+            {
+                case 3:
+                    Console.WriteLine("Triangle");
+                    break;
+                case 4:
+                    Console.WriteLine("Square");
+                    break;
+                case 5:
+                    Console.WriteLine("Pentagon");
+                    break;
+                case 6:
+                    Console.WriteLine("Hexagon");
+                    break;
+                case 7:
+                    Console.WriteLine("Heptagon");
+                    break;
+                case 8:
+                    Console.WriteLine("Octagon");
+                    break;
+                case 9:
+                    Console.WriteLine("Nonagon");
+                    break;
+                case 10:
+                    Console.WriteLine("Decagon");
+                    break;
+                default:
+                    Console.WriteLine("Invaild Input");
+                    break;
+            }
+        }
+        public static void q18()
+        {
+            Console.WriteLine("Enter Month:");
+            string month = Console.ReadLine();
+            if (month == "jan" || month == "mar" || month == "may" || month == "july" || month == "aug" || month == "oct" || month == "dec")
+            {
+                Console.WriteLine("31 Days");
+            }
+            else if (month == "apr" || month == "june" || month == "sep" || month == "nov")
+            {
+                Console.WriteLine("30 Days");
+            }
+            else if (month == "feb")
+            {
+                Console.WriteLine("28 Days");
+            }
+            else
+            {
+                Console.WriteLine("Invaild Input");
+            } 
+        }
+        public static void q19()
+        {
+            Console.WriteLine("Enter Day:");
+            int day = int.Parse(Console.ReadLine());
+            if (day % 7 == 1)
+            {
+                Console.WriteLine("Monday");
+            }
+            else if (day % 7 == 2)
+            {
+                Console.WriteLine("Tuesday");
+            }
+            else if (day % 7 == 3)
+            {
+                Console.WriteLine("Wednesday");
+            }
+            else if (day % 7 == 4)
+            {
+                Console.WriteLine("Thursday");
+            }
+            else if (day % 7 == 5)
+            {
+                Console.WriteLine("Friday");
+            }
+            else if (day % 7== 6)
+            {
+                Console.WriteLine("Saturday");
+            }
+            else if (day % 7 == 0)
+            {
+                Console.WriteLine("Sunday");
+            }
+        }
+        public static void q20()
+        {
+            Console.WriteLine("Enter Side1 Length");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Side2 Length");
+            int b = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Side3 Length");
+            int c = int.Parse(Console.ReadLine());
+            if ((a == b) && (b == c))
+            {
+                Console.WriteLine("Equilateral");
+            }
+            else if ((a > b) || (a > c))
+            {
+                Console.WriteLine("Isosceles");
+            }
+            else
+            {
+                Console.WriteLine("Scalene");
+            }
         }
     }
 }
