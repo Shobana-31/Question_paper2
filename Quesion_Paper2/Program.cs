@@ -21,7 +21,10 @@ namespace Quesion_Paper2
            // q9();
            // q10();
             //q11();
-            q12();
+           // q12();
+           // q13();
+           // q14();
+            q15();
         }
         public static void q1()
         {
@@ -267,6 +270,93 @@ namespace Quesion_Paper2
             {
                 Console.WriteLine("C and A Farther");
             }
+        }
+        public static void q13()
+        {
+            Console.WriteLine("Enter Number1");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Number2");
+            int b = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Number3");
+            int c = int.Parse(Console.ReadLine());
+            int min = a;
+            if (b< min)
+            {
+                min = b;
+            }
+            else if (c < min)
+            {
+                min = c;
+            }
+            int max = a;
+            if (b > max)
+            {
+                max = b;
+            }
+            else if (c > max)
+            {
+                max = c;
+            }
+            int add = a + b + c;
+            int r= max+min;
+            int mid = add - r;
+            Console.WriteLine("Sort Numbers:");
+            Console.WriteLine(min);
+            Console.WriteLine(mid);
+            Console.WriteLine(max);
+        }
+        public static void q14()
+        {
+            Console.WriteLine("Enter Value1:");
+            int num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Value2:");
+            int num2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Value3:");
+            int num3 = int.Parse(Console.ReadLine());
+            if (num1 + num2 + num3 == 180)
+            {
+                Console.WriteLine("Triangle can be formed");
+            }
+            else
+            {
+                Console.WriteLine("Triangle can not be formed");
+            }
+        }
+        public static void q15()
+        {
+            Console.WriteLine("Enter X value:");
+            int x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Y value:");
+            int y = int.Parse(Console.ReadLine());
+            if (x > 0 && y < 0)
+            {
+                Console.WriteLine("I Part");
+            }
+            else if (x > 0 && y > 0)
+            {
+                Console.WriteLine("II Part");
+            }
+            else if (x < 0 && y > 0)
+            {
+                Console.WriteLine("III Part");
+            }
+            else if (x < 0 && y < 0)
+            {
+                Console.WriteLine("IV Part");
+            }
+            else if (x == 0 && y == 0)
+            {
+                Console.WriteLine("Starting..");
+            }
+            else if (x < 0 || x > 0 && y == 0)
+            {
+                Console.WriteLine("X Axis");
+            }
+            else if (y < 0 || y > 0 && x == 0)
+            {
+                Console.WriteLine("Y Axis");
+            }
+
         }
     }
 }
