@@ -1,0 +1,6 @@
+F:\Shobi Root\programs\Quesion_Paper2\Quesion_Paper2\bin\Debug\Quesion_Paper2.exe.config
+F:\Shobi Root\programs\Quesion_Paper2\Quesion_Paper2\bin\Debug\Quesion_Paper2.exe
+F:\Shobi Root\programs\Quesion_Paper2\Quesion_Paper2\bin\Debug\Quesion_Paper2.pdb
+F:\Shobi Root\programs\Quesion_Paper2\Quesion_Paper2\obj\Debug\Quesion_Paper2.csprojResolveAssemblyReference.cache
+F:\Shobi Root\programs\Quesion_Paper2\Quesion_Paper2\obj\Debug\Quesion_Paper2.exe
+F:\Shobi Root\programs\Quesion_Paper2\Quesion_Paper2\obj\Debug\Quesion_Paper2.pdb
